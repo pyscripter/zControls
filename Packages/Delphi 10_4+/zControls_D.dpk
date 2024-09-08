@@ -25,6 +25,7 @@ package zControls_D;
 {$IMAGEBASE $400000}
 {$DEFINE DEBUG}
 {$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'zControls'}
 {$LIBSUFFIX AUTO}
 {$DESIGNONLY}
 {$IMPLICITBUILD ON}
@@ -35,7 +36,7 @@ requires
   zControls_R;
 
 contains
-  zControlsReg in '..\Source\zControlsReg.pas';
+  zControlsReg in '..\..\Source\zControlsReg.pas';
 
 end.
 
